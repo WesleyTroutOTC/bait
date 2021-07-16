@@ -1,0 +1,110 @@
+
+/*============= Header ===================*/
+
+.headercontainer {
+	display:flex;
+}
+
+
+/*============ Bait ======================*/
+
+.baitcontainer1 {
+	display:   flex;
+	flex-wrap: wrap;
+
+}
+
+.baitcontainer1 {
+	display:   flex;
+	flex-wrap: wrap;
+
+}
+
+.livebait {
+	margin-left:20px;
+}
+.baitcontainer1 img {
+	max-width:100%;
+	
+}
+
+.nestedcontainer1 {
+	display:flex;
+	flex-wrap: wrap;
+}
+
+.nestedcontainer2 {
+	display:   flex;
+	flex-wrap: wrap;
+}
+
+.livebait {
+	max-width: 30%;
+}
+
+
+/*========== About Us ==================*/
+
+#abouth2 {
+	padding-top: 25px;
+    padding-bottom: 20px;
+}
+
+.aboutcontainer {
+	display:   flex;
+	flex-wrap: wrap;
+}
+
+
+iframe, .aboutblock2 {
+	margin-left: 20px;
+	margin-top:  30px;
+	max-width:45%;
+}
+
+.aboutblock3, .aboutcontainer img {
+	margin-left: 20px;
+	margin-top:  80px;
+	max-width:45%;
+}
+
+iframe {
+	box-shadow:  5px 5px #ff932d;
+}
+
+/*========== Footer =====================*/
+
+
+.foot {
+	display:flex;
+	justify-content: space-evenly
+}
+
+
+/*=========== Index ======================*/
+
+.indexarticlecont {
+	display:flex;
+	flex-wrap: wrap;
+	align-items: stretch;
+	margin-top:40px;
+	width: 100%;
+	max-height:100%;
+}
+
+#pic1 {
+	
+	max-width:60%;
+	margin-left:20px;
+}
+
+#pic2 {
+	max-width:30%;
+	margin-left:20px;
+}
+
+.indexflex1 {
+	margin-top:20px;
+	max-width:30%;
+	margin-left:20px;
+}
