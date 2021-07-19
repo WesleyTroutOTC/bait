@@ -59,7 +59,7 @@
 }
 
 .left {
-	background:      url("diner.jpg");
+	background:      url("../images/diner.jpg");
 	background-size: cover;
 	box-shadow:      5px 5px #ff932d;
 	grid-row: 1/3;
@@ -141,7 +141,7 @@ iframe {
 
 #pic1 {
 	box-shadow: 5px 5px #ff932d;
-	background: url("storeoutside.webp");
+	background-image: url("../images/storeoutside.webp");
 	background-repeat: no-repeat;
 	background-size:cover;
 	
@@ -167,7 +167,7 @@ iframe {
 
 #pic4 {
 	box-shadow: 5px 5px #ff932d;
-	background: url("fire.jpg");
+	background: url("../images/fire.jpg");
 	background-repeat: no-repeat;
 	background-size:cover;
 	
