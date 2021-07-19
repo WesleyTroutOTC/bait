@@ -1,69 +1,44 @@
-
-
-
 #mySidenav a {
   position:         absolute; 
   transition:       0.3s; 
-  
   padding:          8px;
-  
   font-family:      "otomanopee one";
   text-decoration:  none;
   font-size:        2em;
   font-weight:      bolder;
   font-variant:     small-caps;
-  color:            #3d3d3d;
+  color:            white;
   border-radius:    0 5px 5px 0;
-
   border:           0px solid;
-  box-shadow:       -5px 7px 6px white inset;
-
-}
-
-#mySidenav a:hover { 
-   left: 0;
-} 
-
-
-
+  box-shadow:       -5px 7px 6px white inset;  }
+#mySidenav a:hover {  left: 0;  } 
 #home {
   top:              20px;
+  height:           38px;
   background-color: #2196F3;
   width:            120px;
-  height:           38px;
-  left:             -100px;
-}
-
+  left:             -100px;  }
 #bait {
-  top:              80px;
-  background-color: #2196F3; 
-  width:            120px;
-  height:           38px;
-  left:             -100px;
-}
-
-#food {
-  top:              140px;
-  background-color: #2196F3; 
-  width:            120px;
-  height:           38px;
-  left:             -100px;
-}
-
-#services {
-  top:              200px;
-  background-color: #2196F3; 
-  width:            280px;
-  height:           38px;
-  left:             -260px;
-}
-
-#about {
-  top:              260px;
   background-color: #2196F3;
-  width:            190px;
   height:           38px;
-  left:             -170px;
-  }
-  
-  
+  top:              80px;
+  width:            120px;
+  left:             -100px;  }
+#food {
+  background-color: #2196F3;
+  height:           38px;
+  top:              140px; 
+  width:            120px;
+  left:             -100px;  }
+#services {
+  background-color: #2196F3;
+  height:           38px;
+  top:              200px;
+  width:            280px;
+  left:             -260px;  }
+#about {
+  background-color: #2196F3;
+  height:           38px;
+  top:              260px;
+  width:            190px;
+  left:             -170px;  }

@@ -1,5 +1,12 @@
 @charset "utf-8";
 
+/* 
+	Wesley Trout
+	July 2021
+	
+	styles.css
+*/
+
 html {
 	
 }
@@ -69,7 +76,7 @@ h1 {
 
 /* ================== Article ================== */
 
-#indexh2 {
+h2 {
 	padding-top:    25px;
 	padding-bottom: 20px;
 	
@@ -82,6 +89,13 @@ h2 {
 	margin:          0 auto;	
 	text-shadow:     3px 3px #ff932d;
 	text-decoration: underline;
+}
+
+h3 {
+	text-align:center;
+	color:white;
+	font-family:"otomanopee one";
+	margin-top:0;
 }
 
 h5 {
@@ -105,34 +119,35 @@ h6 {
 	border-top-right-radius: 2em;
 }
 
-.baitcontainer1 p, .baitcontainer2 p, .baitcontainer3 p {
+.baitcontainer p {
 	background-color: antiquewhite;
 	font-family:      "otomanopee one";
 	box-shadow:       5px 5px #ff932d;
 	padding:          10px;
 }
 	
-.indexflex1 {
+.ingrid1, .ingrid2, .right1 {
 	font-family:      "otomanopee one";
 	background-color: antiquewhite;
 	box-shadow:       5px 5px #ff932d;
 }
 
-.indexflex1 p {
-	margin-left: 10px;
+.ingrid1, .ingrid2, .right1 {
+	padding:10px;
+	
 }
 
-nav {
+.ingrid2 p {
+	align-items: center;
+	line-height: 2em;
+}
+
+#mySidenav {
 	position: fixed;
 }
 
 article img {
 	box-shadow: 5px 5px #ff932d;
-}
-
-
-.baitcontainer1 img {
-	
 }
 
 article {
@@ -182,15 +197,17 @@ h4 {
 	padding:          10px;
 }
 
+.baitcontainer p {
+	text-align:right;
+}
+
+.baith5 {
+	padding-top:20px;
+	text-decoration: underline;
+}
 
 
-
-
-
-
-
-
-
+/* ==================Food =======================*/
 
 
 
